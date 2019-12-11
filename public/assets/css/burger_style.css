@@ -1,8 +1,27 @@
-ul {
+body {
+    background-color: goldenrod;
+}
+h1 {
+    text-align: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 80px;
+}
+#uneaten {
     float: left;
 }
+#eaten {
+    float: right;
+}
+
 #make {
     clear:both;
+    text-align: center;
+}
+.create-form {
+    text-align: center;
 }
 /* .create-form {
 clear: both;
