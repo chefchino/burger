@@ -20,8 +20,8 @@ $(".devoured").on("click", function(event) {
   $(".create-form").on("submit", function(event) {
     event.preventDefault();
     var newBurger = {
-      name: $("#ca").val().trim(),
-      devoured: $("[name=devoured]:checked").val().trim()
+      name: $("#bu").val().trim()
+    //   devoured: $("[name=devoured]:checked").val().trim()
     };
     $.ajax("/api/burgers", {
       type: "POST",
