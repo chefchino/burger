@@ -5,27 +5,49 @@ h1 {
     text-align: center;
 }
 img {
-    height: 200px;
-    width: 200px;
-    margin-left: 80px;
+    position: absolute;
+    height: 400px;
+    width: 450px;
+    margin-left: 300px;
 }
 #uneaten {
     font-weight: bolder;
     float: left;
 }
 #eaten {
+    opacity: 0.25;
     font-weight: bolder;
     float: right;
-    /* opacity: 0.5; */
+
+}
+.devoured {
+    font-weight: bolder;
 }
 
 #make {
     clear:both;
     text-align: center;
 }
+#label {
+    font-weight: bolder;
+}
+#submit {
+    font-weight: bolder;
+}
+.maker {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 350px;
+
+}
 .create-form {
     text-align: center;
 }
-/* .create-form {
-clear: both;
-} */
+#bd {
+    position: relative;
+    margin-left: 770px;
+}
+#be {
+    position: relative;
+    margin-left: 100px;
+}
