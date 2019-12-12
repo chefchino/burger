@@ -10,10 +10,13 @@ img {
     margin-left: 80px;
 }
 #uneaten {
+    font-weight: bolder;
     float: left;
 }
 #eaten {
+    font-weight: bolder;
     float: right;
+    /* opacity: 0.5; */
 }
 
 #make {
