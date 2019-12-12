@@ -8,21 +8,24 @@ img {
     position: absolute;
     height: 400px;
     width: 450px;
-    margin-left: 550px;
+    margin-left: 525px;
 }
 #uneaten {
     font-weight: bolder;
     float: left;
+    margin-left: 40px;
 }
 #eaten {
     opacity: 0.25;
     font-weight: bolder;
     float: right;
-    padding-right: 30px;
+    margin-right: 40px;
 
 }
 .devoured {
     font-weight: bolder;
+    background-color: black;
+    color: goldenrod;
 }
 
 #make {
@@ -34,6 +37,8 @@ img {
 }
 #submit {
     font-weight: bolder;
+    background-color: black;
+    color: goldenrod;
 }
 .maker {
     position: absolute;
@@ -47,4 +52,8 @@ img {
 #bd {
     position: relative;
     margin-left: 1200px;
+}
+#bu {
+    height: 50px;
+    width:250px;
 }
